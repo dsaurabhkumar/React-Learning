@@ -15,7 +15,6 @@ export default class Home extends React.Component {
     }
 
     render() {
-        console.log(this.state)
         if (this.state.pagedata) {
             return (
                 <div>

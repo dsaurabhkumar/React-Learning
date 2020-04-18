@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const Heading = (props : any) => {
-    // console.log(props)
     if(props && props.data) {
         return (
             <div className="heading_container">

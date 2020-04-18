@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const Tiles = (props: any) => {
-    console.log(props)
     return (
         <div className="tiles_container">
             <div className="tiles_box_outer">

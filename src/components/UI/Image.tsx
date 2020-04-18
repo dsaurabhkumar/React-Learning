@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const Image = (props: any) => {
-    // console.log(props)
     if (props.data) {
         return (
             <div className="image_container">
