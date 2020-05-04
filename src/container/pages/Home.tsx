@@ -19,8 +19,7 @@ export default class Home extends React.Component {
             return (
                 <div>
                     <Heading data={this.state.pagedata.heading} />
-                    <Image data={this.state.pagedata.image} />
-                    {/* <Heading data={this.state.pagedata.heading2} /> */}
+                    <Image data={this.state.pagedata.image} />                    
                     <Tiles data={this.state.pagedata.tiles}/>
                 </div>
             )
